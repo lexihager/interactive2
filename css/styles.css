@@ -23,6 +23,10 @@ h1{
 	margin-bottom: -5px;
 }
 
+#container {
+
+}
+
 #exercises {
 	font-family: Prompt;
 	font-weight: 200;
@@ -32,12 +36,15 @@ h1{
 }
 
 #projects {
+
 	font-family: Prompt;
 	font-weight: 200;
 	font-size: 20px;
 	color: white;
 	text-align: left; 
 }
+
+
 
 a:link {
 	color: white;
