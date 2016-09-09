@@ -1,36 +1,55 @@
-body {
-	background-repeat: no-repeat;
+
+body{
+	padding: 50px;
+	background-size: 100%;
+	background-repeat: none;
 
 }
 
 
-.main {
-	width: 1000px;
-	height: 600px;
-	background-color: black;
-
-}
-
-h1{
-	font-family: helvetica;
-	font-size: 80px;
-	color: #65083A;
+h2{
+	font-family: Prompt;
+	font-weight: 100;
+	font-size: 60px;
+	color: white;
 	text-align: left;
 }
 
+h1{
+	font-family: Prompt;
+	font-size: 40px;
+	color: white;
+	text-align: left;
+	margin-bottom: -5px;
+}
 
+#exercises {
+	font-family: Prompt;
+	font-weight: 200;
+	font-size: 20px;
+	color: white;
+	text-align: left; 
+}
+
+#projects {
+	font-family: Prompt;
+	font-weight: 200;
+	font-size: 20px;
+	color: white;
+	text-align: left; 
+}
 
 a:link {
-	color: #1ac5f3;
+	color: white;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #1ac5f3;
+	color: white;
 }
 
 a:hover {
-	color: black;
+	color: magenta;
 }
 
 
