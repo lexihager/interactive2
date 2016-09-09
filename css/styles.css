@@ -1,0 +1,36 @@
+body {
+	background-repeat: no-repeat;
+
+}
+
+
+.main {
+	width: 1000px;
+	height: 600px;
+	background-color: black;
+
+}
+
+h1{
+	font-family: helvetica;
+	font-size: 80px;
+	color: #65083A;
+	text-align: left;
+}
+
+
+
+a:link {
+	color: #1ac5f3;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #1ac5f3;
+}
+
+a:hover {
+	color: black;
+}
+
+
