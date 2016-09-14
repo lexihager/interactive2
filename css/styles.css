@@ -23,6 +23,16 @@ h1{
 	margin-bottom: -5px;
 }
 
+h3{
+	font-family: Prompt;
+	font-weight: 200;
+	font-size: 15px;
+	color: white;
+	text-align: left; 
+	margin-top: -40px;
+
+}
+
 #container {
 
 }
