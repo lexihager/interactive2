@@ -1,0 +1,173 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #cccccc;
+}
+
+#world{
+	position: absolute;
+	top: 160px;
+	left: -40px;
+}
+
+#sheet {
+	width: 780px;
+	height: 480px;
+	background: #FF37C2;
+	-webkit-clip-path: polygon(39% 56%, 100% 59%, 88% 83%, 0 80%);
+clip-path: polygon(39% 56%, 100% 59%, 88% 83%, 0 80%);
+}
+
+/* Center the demo */
+html, body { height: 100%; }
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+#globe {
+	position: absolute;
+	top: 310px;
+	left: 180px;
+	width: 170px;
+	height: 170px;
+	background: #E0DDDD;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	opacity: .97;
+}
+
+
+
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+.vase {
+	position: absolute;
+	top: 300px;
+	left: 500px;
+	opacity: .8;
+
+}
+
+
+#bulb {
+   top: 60px;
+   position: absolute;
+   display:block;
+   width: 126px;
+   height: 180px;
+   background-color: #84C44A;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+}
+
+
+#neck {
+	left: 48px;
+	position: absolute;
+	width: 30px;
+	height: 100px;
+	background: #84C44A;
+}
+
+#stem {
+	top: 230px;
+	left: 560px;
+	position: absolute;
+	width: 10px;
+	height: 290px;
+	background: #6A823E;
+	transform: rotate(175deg);
+
+}
+
+#flower {
+	top:80px;
+	left:410px;
+	position: absolute;
+	transform: rotate(-10deg);
+}
+
+#feed {
+	width: 280px;
+	height: 280px;
+	background: #FA5230;
+	-webkit-clip-path: polygon(30% 1%, 54% 37%, 72% 4%, 68% 29%, 91% 10%, 49% 64%, 10% 13%, 57% 34%, 50% 4%, 45% 49%);
+clip-path: polygon(30% 1%, 54% 37%, 72% 4%, 68% 29%, 91% 10%, 49% 64%, 10% 13%, 57% 34%, 50% 4%, 45% 49%);
+}
+
+/* Center the demo */
+html, body { height: 100%; }
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.pine {
+	position: absolute;
+	top: 330px;
+	left: 330px;
+
+}
+
+#base {
+	position: absolute;
+	top:50px;
+   display:block;
+   width: 108px;
+   height: 160px;
+ background: rgba(215,173,106,1);
+background: -moz-linear-gradient(left, rgba(215,173,106,1) 0%, rgba(83,106,87,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(215,173,106,1)), color-stop(100%, rgba(83,106,87,1)));
+background: -webkit-linear-gradient(left, rgba(215,173,106,1) 0%, rgba(83,106,87,1) 100%);
+background: -o-linear-gradient(left, rgba(215,173,106,1) 0%, rgba(83,106,87,1) 100%);
+background: -ms-linear-gradient(left, rgba(215,173,106,1) 0%, rgba(83,106,87,1) 100%);
+background: linear-gradient(to right, rgba(215,173,106,1) 0%, rgba(83,106,87,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7ad6a', endColorstr='#536a57', GradientType=1 );
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+}
+
+#hair2 {
+	top:-100px;
+	left:-95px;
+	position: absolute;
+
+}
+
+#hair {
+	width: 280px;
+	height: 280px;
+background: rgba(177,199,163,1);
+background: -moz-linear-gradient(left, rgba(177,199,163,1) 0%, rgba(100,123,96,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(177,199,163,1)), color-stop(100%, rgba(100,123,96,1)));
+background: -webkit-linear-gradient(left, rgba(177,199,163,1) 0%, rgba(100,123,96,1) 100%);
+background: -o-linear-gradient(left, rgba(177,199,163,1) 0%, rgba(100,123,96,1) 100%);
+background: -ms-linear-gradient(left, rgba(177,199,163,1) 0%, rgba(100,123,96,1) 100%);
+background: linear-gradient(to right, rgba(177,199,163,1) 0%, rgba(100,123,96,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b1c7a3', endColorstr='#647b60', GradientType=1 );
+	-webkit-clip-path: polygon(28% 11%, 53% 38%, 71% 6%, 64% 39%, 75% 40%, 53% 63%, 29% 40%, 60% 41%, 51% 5%, 45% 49%);
+clip-path: polygon(28% 11%, 53% 38%, 71% 6%, 64% 39%, 75% 40%, 53% 63%, 29% 40%, 60% 41%, 51% 5%, 45% 49%);
+
+/* Center the demo */
+html, body { height: 100%; }
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
