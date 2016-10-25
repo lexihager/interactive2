@@ -1,0 +1,467 @@
+
+body{
+
+	background-color: #070A19;
+}
+
+.shine {
+	position: relative;
+	z-index: 100;
+}
+		
+.shine:hover {
+	z-index: 200;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#line1 {
+	position: relative;
+	float: left;
+	background-color: white;	
+	width: 2px;
+	height: 164px;
+}
+
+#line2 {
+	position: relative;
+	float: left;
+	background-color: white;	
+	width: 2px;
+	height: 72px;
+	transform: rotate(-235.3deg);
+}
+
+#line222 {
+	position: relative;
+	float: left;
+	background-color: white;	
+	width: 2px;
+	height: 72px;
+	transform: rotate(235.3deg);
+}
+
+#line3 {
+	position: relative;
+	float: left;
+	background-color: white;	
+	width: 2px;
+	height: 86px;
+	transform: rotate(-315deg);
+}
+
+#line4 {
+	position: relative;
+	float: left;
+	background-color: white;
+	width: 2px;
+	height: 85.7px;
+	transform: rotate(-44deg);
+}
+
+#line5 {
+	position: relative;
+	float: left;
+	background-color: white;
+	width: 60px;
+	height: 2px;
+
+}
+
+#line6 {
+	position: relative;
+	float: left;
+	background-color: white;
+	width: 40px;
+	height: 2px;
+}
+
+#line7 {
+	position: relative;
+	float: left;
+	background-color: white;
+	width: 2px;
+	height: 72px;
+	transform: rotate(53deg);
+}
+
+#line8 {
+	position: relative;
+	float: left;
+	background-color: white;
+	width: 2px;
+	height: 86px;
+	transform: rotate(43.6deg);
+}
+
+#line9 {
+	position: relative;
+	float: left;
+	background-color: white;
+	width: 2px;
+	height: 52px;
+	transform: rotate(124.7deg);
+}
+
+
+#line10 {
+	position: relative;
+	float: left;
+	background-color: white;
+	width: 2px;
+	height: 52px;
+	transform: rotate(-124.7deg);
+}
+
+#line102 {
+	position: relative;
+	float: left;
+	background-color: white;
+	width: 2px;
+	height: 32px;
+	transform: rotate(-124.7deg);
+}
+
+#line11 {
+	position: relative;
+	float: left;
+	background-color: white;
+	width: 2px;
+	height: 184px;
+	transform: rotate(-153.88deg);
+}
+
+#line12 {
+	position: relative;
+	float: left;
+	background-color: white;
+	width: 2px;
+	height: 176px;
+	transform: rotate(-200.12deg);
+}
+
+#line122 {
+	position: relative;
+	float: left;
+	background-color: white;
+	width: 2px;
+	height: 172px;
+	transform: rotate(-339.5deg);
+}
+
+#line13 {
+	position: relative;
+	float: left;
+	background-color: white;
+	width: 2px;
+	height: 137px;
+	transform: rotate(-333.92deg);
+}
+
+#line14 {
+	position: relative;
+	float: left;
+	background-color: white;	
+	width: 2px;
+	height: 144px;
+
+}
+
+#line15 {
+	position: relative;
+	float: left;
+	background-color: white;	
+	width: 2px;
+	height: 123px;
+	
+}
+
+#line16 {
+	position: relative;
+	float: left;
+	background-color: white;	
+	width: 2px;
+	height: 102px;
+	
+}
+
+#line17 {
+	position: relative;
+	float: left;
+	background-color: white;	
+	width: 2px;
+	height: 62px;	
+}
+
+#a {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#b {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#c {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#d {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#e {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#f {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#g {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+
+#h {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#i {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#j {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px
+}
+
+#k {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#l {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#m {
+	position: relative;	
+	float: left;
+	width: 100px;
+	height: 180px;
+}
+
+#n {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#o {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#p {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#q {
+	position: relative;	
+	float: left;
+	width: 85px;
+	height: 180px;
+}
+
+#r {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#s {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#t {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#u {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#v {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+
+}
+
+#w {
+	position: relative;	
+	float: left;
+	width: 100px;
+	height: 165px;
+}
+
+#x {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#y {
+	position: relative;	
+	float: left;
+	width: 85px;
+	height: 180px;
+}
+
+#z {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+
+
+
+#one {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+#two {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+#three {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+#four {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+#five {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+#six {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+#seven {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+#eight {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+#nine {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#zero {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}

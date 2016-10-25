@@ -1,0 +1,637 @@
+body{
+	background-color: black;
+	width: 1200px;
+
+}
+
+#container {
+	padding: 20px;
+	height: 600px;
+}
+
+.start {
+	position: relative;	
+	top: 484px;
+    left: 87px;
+	width: 10px;
+	height: 10px;
+	z-index: 4;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    animation: pulse 3s infinite;
+    
+}
+
+.end {
+	position: relative;	
+	top: 148px;
+    left: 340px;
+	width: 15px;
+	height: 15px;
+	z-index: 4;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    animation: pulse 3s infinite;
+    
+}
+
+@keyframes pulse {
+  0% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: #070A19;
+  }
+  
+}
+
+
+.letter {
+	position: relative;	
+	float: left;
+	background-color: transparent;
+	width: 75px;
+	height: 180px;
+	z-index: 3;	
+
+}
+
+
+.cover {
+	position: relative;	
+	background-color: black;
+	width: 75px;
+	height: 180px;	
+	z-index: 3;
+}
+
+
+.cover:hover {
+	opacity: 0;	
+	z-index: 3;
+}
+
+
+.cover:active + .popup {
+			display: block;
+			z-index: 3;
+		}
+		
+		.popup {
+			position: absolute;
+			width: 250px;
+			height: 270px;
+			display: none;
+			z-index: 3;
+
+		}
+		
+		.popup:hover {
+			display: block;
+			z-index: 3;
+		}
+		
+		.popup .box {
+			position: absolute;
+			background-color: white;
+			opacity: .60;
+			width: 2px;
+			height: 167px;
+			transform: rotate(-305.92deg);
+			z-index: 3;
+		}
+
+		.popup .box2 {
+			position: absolute;
+			background-color: white;
+			opacity: .60;
+			width: 2px;
+			height: 138px;
+			transform: rotate(300deg);
+		}
+
+		.popup .box3 {
+			position: absolute;
+			background-color: white;
+			opacity: .60;
+			width: 2px;
+			height: 160px;
+			transform: rotate(63deg);
+		}
+
+
+		.popup .box4 {
+			position: absolute;
+			background-color: white;
+			opacity: .60;
+			width: 2px;
+			height: 140px;
+			transform: rotate(-62deg);
+		}
+
+
+		.popup .box5 {
+			position: absolute;
+			background-color: white;
+			opacity: .60;
+			width: 200px;
+			height: 2px;
+		}
+
+
+#line1 {
+	position: relative;
+	float: left;
+	background-color: white;	
+	width: 2px;
+	height: 164px;
+}
+
+#line2 {
+	position: relative;
+	float: left;
+	background-color: white;	
+	width: 2px;
+	height: 72px;
+	transform: rotate(-235.3deg);
+}
+
+#line222 {
+	position: relative;
+	float: left;
+	background-color: white;	
+	width: 2px;
+	height: 72px;
+	transform: rotate(235.3deg);
+}
+
+#line3 {
+	position: relative;
+	float: left;
+	background-color: white;	
+	width: 2px;
+	height: 86px;
+	transform: rotate(-315deg);
+}
+
+#line4 {
+	position: relative;
+	float: left;
+	background-color: white;
+	width: 2px;
+	height: 85.7px;
+	transform: rotate(-44deg);
+}
+
+#line5 {
+	position: relative;
+	float: left;
+	background-color: white;
+	width: 60px;
+	height: 2px;
+
+}
+
+#line6 {
+	position: relative;
+	float: left;
+	background-color: white;
+	width: 40px;
+	height: 2px;
+}
+
+#line7 {
+	position: relative;
+	float: left;
+	background-color: white;
+	width: 2px;
+	height: 72px;
+	transform: rotate(53deg);
+}
+
+#line8 {
+	position: relative;
+	float: left;
+	background-color: white;
+	width: 2px;
+	height: 86px;
+	transform: rotate(43.6deg);
+}
+
+#line9 {
+	position: relative;
+	float: left;
+	background-color: white;
+	width: 2px;
+	height: 52px;
+	transform: rotate(124.7deg);
+}
+
+
+#line10 {
+	position: relative;
+	float: left;
+	background-color: white;
+	width: 2px;
+	height: 52px;
+	transform: rotate(-124.7deg);
+}
+
+#line102 {
+	position: relative;
+	float: left;
+	background-color: white;
+	width: 2px;
+	height: 32px;
+	transform: rotate(-124.7deg);
+}
+
+#line11 {
+	position: relative;
+	float: left;
+	background-color: white;
+	width: 2px;
+	height: 184px;
+	transform: rotate(-153.88deg);
+}
+
+#line12 {
+	position: relative;
+	float: left;
+	background-color: white;
+	width: 2px;
+	height: 176px;
+	transform: rotate(-200.12deg);
+}
+
+#line122 {
+	position: relative;
+	float: left;
+	background-color: white;
+	width: 2px;
+	height: 172px;
+	transform: rotate(-339.5deg);
+}
+
+#line13 {
+	position: relative;
+	float: left;
+	background-color: white;
+	width: 2px;
+	height: 137px;
+	transform: rotate(-333.92deg);
+}
+
+#line14 {
+	position: relative;
+	float: left;
+	background-color: white;	
+	width: 2px;
+	height: 144px;
+
+}
+
+#line15 {
+	position: relative;
+	float: left;
+	background-color: white;	
+	width: 2px;
+	height: 123px;
+	
+}
+
+#line16 {
+	position: relative;
+	float: left;
+	background-color: white;	
+	width: 2px;
+	height: 102px;
+	
+}
+
+#line17 {
+	position: relative;
+	float: left;
+	background-color: white;	
+	width: 2px;
+	height: 62px;	
+}
+
+#a {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#b {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#c {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#d {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#e {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#f {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#g {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+
+#h {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#i {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#j {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px
+}
+
+#k {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#l {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#m {
+	position: relative;	
+	float: left;
+	width: 100px;
+	height: 180px;
+}
+
+#n {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#o {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#p {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#q {
+	position: relative;	
+	float: left;
+	width: 85px;
+	height: 180px;
+}
+
+#r {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#s {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#t {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#u {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#v {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+
+}
+
+#w {
+	position: relative;	
+	float: left;
+	width: 100px;
+	height: 165px;
+}
+
+#x {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#y {
+	position: relative;	
+	float: left;
+	width: 85px;
+	height: 180px;
+}
+
+#z {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+
+
+
+#one {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+#two {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+#three {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+#four {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+#five {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+#six {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+#seven {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+#eight {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+#nine {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+#zero {
+	position: relative;	
+	float: left;
+	width: 75px;
+	height: 180px;
+}
+
+
+
+
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-webkit-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-moz-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-ms-keyframes move-clouds-back {
+    from {background-position: 0;}
+    to {background-position:10000px 0;}
+}
+
+.stars, .twinkling {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display:block;
+}
+
+.stars {
+  background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  z-index:0;
+}
+
+.twinkling{
+  background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  z-index:1;
+
+  -moz-animation:move-twink-back 600s linear infinite;
+  -ms-animation:move-twink-back 600s linear infinite;
+  -o-animation:move-twink-back 600s linear infinite;
+  -webkit-animation:move-twink-back 600s linear infinite;
+  animation:move-twink-back 600s linear infinite;
+}
+
+
+
