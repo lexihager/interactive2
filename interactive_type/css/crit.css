@@ -1,14 +1,207 @@
-
 body{
-
 	background-color: black;
+	width: 1200px;
 
 }
 
 #container {
-	width: 1021px;
-	padding: 90px;
+	padding: 20px;
+	height: 600px;
+
 }
+
+.start {
+	position: relative;	
+	top: 542px;
+    left: 87px;
+	width: 10px;
+	height: 10px;
+	z-index: 4;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    animation: color-me-in 3s infinite;
+    
+}
+
+.end {
+	position: relative;	
+	top: 148px;
+    left: 340px;
+	width: 12px;
+	height: 12px;
+	z-index: 4;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    animation: color-me-in 3s infinite;
+    
+}
+
+@keyframes color-me-in {
+  0% {
+    background: black;
+  }
+  /* Adding a step in the middle */
+  50% {
+    background: yellow;
+  }
+  100% {
+    background: black;
+  }
+}
+  
+
+.dot1 {
+	position: relative;	
+	width: 4px;
+	height: 4px;
+	background-color: white;
+	z-index: 100;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  
+}
+
+
+.dot2 {
+	position: relative;	
+	width: 2px;
+	height: 2px;
+	background-color: white;
+	z-index: 100;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  
+}
+
+
+.dot3 {
+	position: relative;	
+	width: 3px;
+	height: 3px;
+	background-color: white;
+	z-index: 4;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  
+}
+
+
+.letter {
+	position: relative;	
+	float: left;
+	background-color: transparent;
+	width: 75px;
+	height: 180px;
+	z-index: 3;	
+
+}
+
+
+.cover {
+	position: relative;	
+	background-color: black;
+	width: 75px;
+	height: 180px;	
+	z-index: 3;
+}
+
+/*
+.cover:hover {
+	opacity: 0;	
+	z-index: 3;
+}*/
+
+.cover:hover {
+	
+	z-index: 3;
+	animation: pulse 2.7s;
+	animation-fill-mode: both;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 100;
+  }
+  100% {
+    opacity: 0;
+  }
+  
+}
+
+
+.cover:active + .popup {
+			display: block;
+			z-index: 3;
+
+		}
+		
+		.popup {
+			position: absolute;
+			width: 250px;
+			height: 270px;
+			display: none;
+			z-index: 3;
+
+
+		}
+		
+		.popup:hover {
+			display: block;
+			z-index: 3;
+		}
+		
+		.popup .box {
+			position: absolute;
+			background-color: white;
+			opacity: .60;
+			width:1px;
+			height: 167px;
+			transform: rotate(-305.92deg);
+			z-index: 3;
+		}
+
+		.popup .box2 {
+			position: absolute;
+			background-color: white;
+			opacity: .60;
+			width: 1px;
+			height: 138px;
+			transform: rotate(300deg);
+		}
+
+		.popup .box3 {
+			position: absolute;
+			background-color: white;
+			opacity: .60;
+			width: 1px;
+			height: 160px;
+			transform: rotate(63deg);
+		}
+
+
+		.popup .box4 {
+			position: absolute;
+			background-color: white;
+			opacity: .60;
+			width: 1px;
+			height: 140px;
+			transform: rotate(-62deg);
+		}
+
+
+		.popup .box5 {
+			position: absolute;
+			background-color: white;
+			opacity: .60;
+			width: 200px;
+			height: 1px;
+		}
+
 
 #line1 {
 	position: relative;
@@ -16,7 +209,6 @@ body{
 	background-color: white;	
 	width: 2px;
 	height: 164px;
-	
 }
 
 #line2 {
@@ -118,15 +310,6 @@ body{
 	transform: rotate(-124.7deg);
 }
 
-#line105 {
-	position: relative;
-	float: left;
-	background-color: white;
-	width: 2px;
-	height: 50px;
-	transform: rotate(-146.88deg);
-}
-
 #line11 {
 	position: relative;
 	float: left;
@@ -198,38 +381,13 @@ body{
 	height: 62px;	
 }
 
-#line18 {
-	position: relative;
-	float: left;
-	background-color: white;	
-	width: 2px;
-	height: 25px;	
-}
-
-#line19 {
-	position: relative;
-	float: left;
-	background-color: white;	
-	width: 2px;
-	height: 28px;	
-	transform: rotate(45deg);
-}
-
-#line20 {
-	position: relative;
-	float: left;
-	background-color: white;	
-	width: 2px;
-	height: 28px;	
-	transform: rotate(-45deg);
-}
-
 #a {
 	position: relative;	
 	float: left;
 	width: 75px;
 	height: 180px;
-}
+   }
+
 
 #b {
 	position: relative;	
@@ -469,39 +627,10 @@ body{
 #zero {
 	position: relative;	
 	float: left;
-	width: 95px;
-	height: 180px;
-}
-
-
-#question {
-	position: relative;	
-	float: left;
 	width: 75px;
 	height: 180px;
 }
 
-#exclaim {
-	position: relative;	
-	float: left;
-	width: 25px;
-	height: 180px;
-}
-
-#period {
-	position: relative;	
-	float: left;
-	width: 55px;
-	height: 180px;
-}
-
-
-#quotes {
-	position: relative;	
-	float: left;
-	width: 75px;
-	height: 180px;
-}
 
 
 
@@ -553,10 +682,12 @@ body{
 
 .stars {
   background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  z-index:0;
 }
 
 .twinkling{
   background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  z-index:1;
 
   -moz-animation:move-twink-back 600s linear infinite;
   -ms-animation:move-twink-back 600s linear infinite;
@@ -565,32 +696,5 @@ body{
   animation:move-twink-back 600s linear infinite;
 }
 
-.start {
-	position: absolute;	
-	top: 350px;
-    left: 50px;
-	width: 10px;
-	height: 10px;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
-
-    animation: color-me-in 3s infinite;
-    z-index:100;
-    
-}
-
-@keyframes color-me-in {
-  0% {
-    background: black;
-  }
-  /* Adding a step in the middle */
-  50% {
-    background: yellow;
-  }
-  100% {
-    background: black;
-  }
-}
 
 
