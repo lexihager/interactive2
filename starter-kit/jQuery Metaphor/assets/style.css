@@ -1,0 +1,27 @@
+
+
+.upper {
+    height: 220px;
+    width: 1300px;
+    position: absolute;
+    top:0px;
+    background: black;
+}
+
+.lower {
+    height: 420px;
+    width: 1300px;
+    position: absolute;
+    top:220px;
+    background:black;
+}
+
+
+.light{
+    height: 800px;
+    width: 1300px;
+    position: absolute;
+    top:0px;
+    background: yellow;
+}
+

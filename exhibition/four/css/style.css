@@ -1,0 +1,67 @@
+body {
+  margin: 0px;
+  width: 4000px;
+  background-color: black;
+}
+
+
+
+
+img {
+  max-height: 600px;
+}
+
+.week {
+  z-index: 1001;
+  width: 400px;
+  float: left;
+}
+
+.title {
+  z-index: 1002;
+  height: 300px;
+  width: 200px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.title:hover {
+
+  -webkit-filter: hue-rotate(210deg);
+  filter: hue-rotate(210deg);
+}
+
+
+.content {
+  position: relative;
+  width: 200px;
+  height: 600px;
+  padding: 20px;
+  display: none;
+  background-color: black;
+  left: 415px;
+  top: -340px;
+  color: white;
+}
+
+
+#container {
+  width: 1000px;
+  background-color: black;
+}
+
+
+.flashlight {
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  padding: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background: radial-gradient(200px 200px, circle contain, rgba(0, 0, 0, 0), rgba(0, 0, 40, 0.96)) center center;
+  background: -webkit-radial-gradient(200px 200px, circle contain, rgba(0, 0, 0, 0), rgba(0, 0, 40, 0.96)) center center;
+  background: -moz-radial-gradient(200px 200px, circle contain, rgba(0, 0, 0, 0), rgba(0, 0, 40, 0.96)) center center;
+  background: -ms-radial-gradient(200px 200px, circle contain, rgba(0, 0, 0, 0), rgba(0, 0, 40, 0.96) center center;
+}
