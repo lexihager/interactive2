@@ -1,28 +1,133 @@
 body, html {
   margin: 0;
-  padding: 0;
   height: 100%;
-  width: 4000px;
+  width: 5700px;
+  padding: 10px;
   background-color: black;
+  overflow-y: hidden
+
 }
 
 
 img {
-  width: 400px;
+  position: relative;
+  float: left;
+  height: 680px;
+  z-index: 100;
+}
+
+h6 {
+  font-family: Prompt;
+  font-weight: 400;
+  font-size: 200px;
+  color: navy;
+  text-align: center;
+  line-height: 40px;
+
+}
+
+p {
+  font-family: Prompt;
+  font-weight: 100;
+  font-size: 22px;
+  color: navy;
+  text-align: center;
+  line-height: 28px;
+  margin-top: -100px;
+}
+
+
+.final {
+  width: 700px;
+  height: 880px;
+  background-color: white;
+  position: relative;
+  float: left;
+  top: -50px;
+  left: 100px;
+  z-index: 2001;
+  transition: opacity 2s ease;
+  opacity: 0;
+}
+
+.finalbox {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+
+}
+
+.final:hover {
+  opacity: 1;
 }
 
 .flashlight {
+  cursor: none;
+  padding: 200px;
   z-index: 1001;
   width: 100%;
   height: 100%;
-  padding: 200px;
   position: fixed;
- background-color: blue;
   top: 0;
   left: 0;
   background-repeat: no-repeat;
-  background: radial-gradient(200px 200px, circle contain, rgba(0, 0, 0, 0), rgba(10, 10, 30, 0.96)) center center;
-  background: -webkit-radial-gradient(200px 200px, circle contain, rgba(0, 0, 0, 0), rgba(10, 10, 30, 0.96)) center center;
-  background: -moz-radial-gradient(200px 200px, circle contain, rgba(0, 0, 0, 0), rgba(10, 10, 30, 0.96)) center center;
-  background: -ms-radial-gradient(200px 200px, circle contain, rgba(0, 0, 0, 0), rgba(10, 10, 30, 0.96)) center center;
+  background: radial-gradient(200px 200px, circle contain, rgba(0, 0, 0, .5), rgba(00, 00, 0, 0.96)) center center;
+  background: -webkit-radial-gradient(200px 200px, circle contain, rgba(20, 0, 240, .4), rgba(00, 00, 0, 0.96)) center center;
+  background: -moz-radial-gradient(200px 200px, circle contain, rgba(0, 0, 0, .5), rgba(00, 00, 0, 0.96)) center center;
+  background: -ms-radial-gradient(200px 200px, circle contain, rgba(0, 0, 0, .5), rgba(00, 00, 0, 0.96)) center center;
+}
+
+
+
+.container {
+  padding: 20px;
+  position: relative;
+}
+
+.content {
+  position: relative;
+  float: left;
+  width: 230px;
+  height: 680px;
+  padding: 20px;
+  font-family: Prompt;
+  font-weight: 100;
+  font-size: 22px;
+  color: white;
+  text-align: left;
+  line-height: 28px;
+  z-index: 200;
+  left: 00px;
+
+}
+
+
+.info {
+  font-family: Prompt;
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  text-align: left;
+  line-height: 20px;
+}
+
+
+
+
+
+a:link {
+  color: navy;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  background: blue;
 }

@@ -44,7 +44,7 @@ p {
     position: absolute;
     width: 500px;
     height: 500px;
-    background-color: white;
+    background-color: blue;
     z-index: 10;
     -webkit-box-shadow: inset 0px 0px 150px 166px rgba(0,0,0,1);
     -moz-box-shadow: inset 0px 0px 150px 166px rgba(0,0,0,1);

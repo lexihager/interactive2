@@ -1,0 +1,308 @@
+body, html {
+  margin: 0;
+  height: 100%;
+  width: 4950px;
+  padding: 10px;
+  background-color: black;
+  overflow-y: hidden
+
+}
+
+
+img {
+  position: relative;
+  float: left;
+  height: 680px;
+  z-index: 100;
+}
+
+
+
+.flashlight {
+  cursor: none;
+  padding: 200px;
+  z-index: 1001;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background: radial-gradient(200px 200px, circle contain, rgba(0, 0, 0, .5), rgba(00, 00, 0, 0.96)) center center;
+  background: -webkit-radial-gradient(200px 200px, circle contain, rgba(20, 0, 240, .4), rgba(00, 00, 0, 0.96)) center center;
+  background: -moz-radial-gradient(200px 200px, circle contain, rgba(0, 0, 0, .5), rgba(00, 00, 0, 0.96)) center center;
+  background: -ms-radial-gradient(200px 200px, circle contain, rgba(0, 0, 0, .5), rgba(00, 00, 0, 0.96)) center center;
+}
+
+
+
+.container {
+  padding: 20px;
+  position: relative;
+}
+.space {
+  width: 50px;
+  height: 680px;
+  background-color: black;
+  position: relative;
+  float: left;
+  z-index: 200;
+}
+
+.content {
+  position: relative;
+  float: left;
+  width: 230px;
+  height: 680px;
+  padding: 20px;
+  font-family: Prompt;
+  font-weight: 100;
+  font-size: 22px;
+  color: white;
+  text-align: left;
+  line-height: 28px;
+  z-index: 200;
+  left: 00px;
+
+}
+
+.content1 {
+  position: relative;
+  float: left;
+  width: 240px;
+  height: 680px;
+  padding: 20px;
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 18px;
+  color: white;
+  text-align: right;
+  line-height: 22px;
+  z-index: 200;
+  left: 00px;
+  top: 250px;
+
+}
+
+.content2 {
+  position: relative;
+  float: left;
+  width: 240px;
+  height: 680px;
+  padding: 20px;
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 18px;
+  color: white;
+  text-align: right;
+  line-height: 22px;
+  z-index: 200;
+  left: 00px;
+  top: 255px;
+
+}
+
+
+.content3 {
+  position: relative;
+  float: left;
+  width: 240px;
+  height: 680px;
+  padding: 20px;
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 18px;
+  color: white;
+  text-align: left;
+  line-height: 22px;
+  z-index: 200;
+  left: 00px;
+  top: 155px;
+
+}
+
+.content4 {
+  position: relative;
+  float: left;
+  width: 240px;
+  height: 680px;
+  padding: 20px;
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 18px;
+  color: white;
+  text-align: left;
+  line-height: 22px;
+  z-index: 200;
+  left: 00px;
+  top: 390px;
+
+}
+
+.content5 {
+  position: relative;
+  float: left;
+  width: 240px;
+  height: 680px;
+  padding: 20px;
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 18px;
+  color: white;
+  text-align: left;
+  line-height: 22px;
+  z-index: 200;
+  left: 00px;
+  top: 142px;
+
+}
+
+
+.content6 {
+  position: relative;
+  float: left;
+  width: 240px;
+  height: 680px;
+  padding: 20px;
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 18px;
+  color: white;
+  text-align: right;
+  line-height: 22px;
+  z-index: 200;
+  left: 00px;
+  top: 310px;
+
+}
+
+
+#k {
+  position: absolute;
+  width: 20px;
+  height: 30px;
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 24px;
+  transform: rotate(24deg);
+  top: 185px;
+  right: -5px; 
+  
+}
+
+
+#k2 {
+  position: absolute;
+  width: 20px;
+  height: 30px;
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 24px;
+  transform: rotate(20deg);
+  top: 184px;
+  right: -5px; 
+  
+}
+
+#k3 {
+  position: absolute;
+  width: 20px;
+  height: 30px;
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 24px;
+  transform: rotate(12deg);
+  top: 11px;
+  left: -10px;
+ 
+}
+
+#k6 {
+  position: absolute;
+  width: 20px;
+  height: 30px;
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 24px;
+  transform: rotate(-12deg);
+  top: 15px;
+  right: -5px; 
+  
+}
+
+.info {
+  font-family: Prompt;
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  text-align: left;
+  line-height: 20px;
+}
+
+
+.final {
+  width: 600px;
+  height: 745px;
+  background-color: black;
+  position: relative;
+  font-family: Prompt;
+  font-weight: 200;
+  font-size: 24px;
+  text-align: center;
+  line-height: 28px;
+  float: left;
+  color: black;
+  top: -50px;
+  left: 0px;
+  z-index: 2001;
+  transition: opacity 2s ease;
+  opacity: 0;
+}
+
+.finaltype {
+  position: absolute;
+  width: 600px;
+  height: 250px;
+  left: 50px;
+  top: 270px;
+  background-color: white;
+  transition: 10s ease;
+}
+
+
+
+.final:hover {
+  opacity: .9;
+}
+
+.finaltype:hover {
+  color: #0511F2;
+}
+
+
+
+
+
+
+a:link {
+  font-family: Prompt;
+  font-weight: 300;
+  font-size: 45px;
+  text-align: center;
+  color: black;
+}
+
+a:visited {
+  font-family: Prompt;
+  font-weight: 300;
+  font-size: 45px;
+  text-align: center;
+  color: black;
+}
+
+a:hover {
+  color: #2F09C6;
+  font-weight: 400;
+  text-decoration: none;
+  background-color: white;
+}
